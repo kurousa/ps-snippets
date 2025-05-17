@@ -1,3 +1,7 @@
+# 指定した実行ファイル（および引数）を実行し、その実行時間（秒）を計測して表示する関数です。
+# 引数の処理方法:
+#   $args[0] : 実行するファイルのパス
+#   $args[1]以降 : 実行ファイルに渡す引数（複数可）
 function time {
     if ($args.Count -eq 0) {
         Write-Error "specify execution target path."
