@@ -14,8 +14,8 @@ PowerShellの便利なスニペット（コード片）、エイリアスとし�
 各スニペットは独立したファイルとして提供されており、必要に応じて直接実行するか、自分のスクリプトに組み込むことができます。
 
 ```powershell
-# PowerShell プロファイルにスニペットを追加する例
-Add-Content -Path $PROFILE -Value (Get-Content -Path ".\ps-snippets.ps1")
+# PowerShell プロファイルに`time`エイリアスを追加する例
+Add-Content -Path $PROFILE -Value (Get-Content -Path ".\time.ps1")
 ```
 
 プロファイルを編集するには次のコマンドを実行します：
